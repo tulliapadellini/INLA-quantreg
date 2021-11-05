@@ -379,7 +379,7 @@ Let’s visualize the results, starting from exceedance probabilities:
       q2_exprob + ggtitle("Quantile regression (Q2)") +  q3_exprob + ggtitle("Quantile regression (Q3)") +
       plot_layout( guides = "collect", nrow = 2, byrow = T) &   scale_fill_viridis_c() 
 
-<img src="README_files/figure-markdown_strict/unnamed-chunk-11-1.png" style="display: block; margin: auto;" />
+<img src="Figures/unnamed-chunk-11-1.png" style="display: block; margin: auto;" />
 
 And let us find areas of high risk, assuming the critical threshold
 *t* = 0.95
