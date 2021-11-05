@@ -407,7 +407,7 @@ And let us find areas of high risk, assuming the critical threshold
       q2_hra + ggtitle("Quantile regression (Q2)") +  q3_hra + ggtitle("Quantile regression (Q3)") +
       plot_layout( guides = "collect", nrow = 2, byrow = T) &   scale_fill_viridis_d(option = "A", alpha =0.96, begin = 0.15, end = 0.7, direction = -1)
 
-<img src="README_files/figure-markdown_strict/unnamed-chunk-12-1.png" style="display: block; margin: auto;" />
+<img src="Figures/unnamed-chunk-12-1.png" style="display: block; margin: auto;" />
 
 Figures show the critical areas identified by quantile and mean
 regression. The similarity of the results of our method with those
