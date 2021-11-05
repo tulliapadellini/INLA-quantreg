@@ -1,3 +1,7 @@
+## Model Aware Quantile Regression
+
+This vignette illustrates how to use the Model Aware approach to Quantile Regression introduced in (https://arxiv.org/pdf/1804.03714) for Disease Mapping.
+
 Classical (mean) regression methods model the average behavior, which
 despite being an useful summary measure, does not capture how the
 covariates may not affect in the same way all levels of population.
